@@ -18,7 +18,7 @@ function App() {
         { path: "/statictis", element: <Home /> },
         { path: "/blog", element: <Blog /> },
         { path: "/question", element: <Home /> },
-        { path: "/about", element: <Home /> },
+        { path: "/", element: <Home /> },
       ],
     },
     { path: "*", element: <div>Helo</div> },
