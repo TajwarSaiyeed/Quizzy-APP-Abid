@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Blog = () => {
-  return <div>this is blog</div>
+  return <div>hellow oel</div>
 }
 
 export default Blog
