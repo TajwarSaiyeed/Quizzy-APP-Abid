@@ -5,6 +5,7 @@ import Main from "./layout/Main";
 import Blog from "./Components/Blog/Blog";
 import Quizes from "./Components/Quizes/Quizes";
 import Statictis from "./Components/Statictis/Statictis";
+import PageNotFound from "./Components/PageNotFound/PageNotFound";
 
 function App() {
   const router = createBrowserRouter([
@@ -36,7 +37,7 @@ function App() {
         },
       ],
     },
-    { path: "*", element: <div>Helo</div> },
+    { path: "*", element: <PageNotFound /> },
   ]);
   return (
     <div className="App">
