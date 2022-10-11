@@ -9,16 +9,13 @@ const Navbar = () => {
       </Link>
       <ul className="flex gap-2 duration-500 text-white text-xl">
         <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
           <Link to="/blog">Blog</Link>
         </li>
         <li>
           <Link to="/statictis">Statictis</Link>
-        </li>
-        <li>
-          <Link to="/">About</Link>
-        </li>
-        <li>
-          <Link to="/">Question</Link>
         </li>
       </ul>
     </nav>
