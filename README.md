@@ -12,7 +12,7 @@ Tailwind CSS
 
 Rechat
 
-Active link added and onther pic chart add in every quiz section. it will show when you participate in quiz.
+Active link added and aonther pic chart add in every quiz section. it will show when you participate in quiz.
 
 React Toast
 
