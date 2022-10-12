@@ -3,11 +3,17 @@
 # Project Name : Quizzy App
 # Dependencies and extra thing what i have added in my app
 React Router
+
 React Icon
+
 Tailwind CSS
+
 Rechat
+
 React Toast
+
 Add Statictis For showing the total of every topics.
+
 write Something About me in heaader
 
 
