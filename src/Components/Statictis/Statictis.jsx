@@ -4,6 +4,7 @@ import { Pie, PieChart, ResponsiveContainer, Tooltip } from 'recharts'
 
 const Statictis = () => {
   const totalQuiz = useLoaderData()
+  console.log(totalQuiz)
   return (
     <div className="flex flex-col justify-center items-center h-screen my-5">
       <h1 className="text-3xl font-medium">Statictis</h1>

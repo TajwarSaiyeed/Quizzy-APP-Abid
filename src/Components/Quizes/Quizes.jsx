@@ -1,5 +1,6 @@
 import React, { createContext, useState } from 'react'
 import { Link, useLoaderData } from 'react-router-dom'
+import { Pie, PieChart, ResponsiveContainer, Tooltip } from 'recharts'
 import SIngleQuiz from '../SingleQuiz/SIngleQuiz'
 
 export const worngRightCounter = createContext()
@@ -10,6 +11,12 @@ const Quizes = () => {
   const quizes = useLoaderData()
 
   const { questions, name } = quizes.data
+
+  const rightWrongPie = [
+    { name: 'correct', rightWrong: correct },
+    { name: 'wrong:', rightWrong: wrong },
+  ]
+  console.log(rightWrongPie)
   return (
     <div className="px-4 py-5 sm:px-5 md:px-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
@@ -37,6 +44,24 @@ const Quizes = () => {
           <h2 className="my-2 p-2 rounded-md bg-slate-400">
             Right Answer : {correct}
           </h2>
+          <div>
+            <ResponsiveContainer width="100%" height={200}>
+              <PieChart width={50} height={50}>
+                <Pie
+                  dataKey="rightWrong"
+                  startAngle={180}
+                  endAngle={0}
+                  data={rightWrongPie}
+                  cx="50%"
+                  cy="50%"
+                  outerRadius={100}
+                  fill="#8884d8"
+                  label
+                />
+                <Tooltip />
+              </PieChart>
+            </ResponsiveContainer>
+          </div>
           <Link
             to="/"
             className="bg-teal-900 p-2 text-white rounded-md cursor-pointer"
