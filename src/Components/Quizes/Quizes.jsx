@@ -38,10 +38,10 @@ const Quizes = () => {
           <h2 className="text-4xl font-bold text-teal-400 mb-3">
             Quiz Answer Statictis
           </h2>
-          <h2 className="my-2 p-2 rounded-md bg-slate-400">
+          <h2 className="my-2 p-2 rounded-md bg-slate-400 dark:text-white dark:bg-slate-900">
             You made mistake : {wrong}
           </h2>
-          <h2 className="my-2 p-2 rounded-md bg-slate-400">
+          <h2 className="my-2 p-2 rounded-md bg-slate-400 dark:text-white dark:bg-slate-900">
             Right Answer : {correct}
           </h2>
           <div>
@@ -64,7 +64,7 @@ const Quizes = () => {
           </div>
           <Link
             to="/"
-            className="bg-teal-900 p-2 text-white rounded-md cursor-pointer"
+            className="bg-teal-900 dark:bg-white dark:text-slate-600 shadow-lg dark:shadow-slate-300 p-2 text-white rounded-md cursor-pointer"
           >
             Back to Home
           </Link>

@@ -19,9 +19,9 @@ const SIngleQuiz = ({ question, num }) => {
   }
 
   return (
-    <div className="px-4 py-5 sm:px-5 md:px-10 bg-slate-200 rounded-md">
+    <div className="px-4 py-5 sm:px-5 md:px-10 shadow-md dark:shadow-slate-200 bg-slate-200 dark:bg-slate-500 rounded-md">
       <div className="flex justify-between items-center">
-        <h1 className="text-2xl text-left">
+        <h1 className="text-2xl text-left dark:text-white">
           Quiz {num + 1}
           {' : '}
           {question.question.slice(3, question.question.length - 4)}
@@ -37,7 +37,7 @@ const SIngleQuiz = ({ question, num }) => {
         {options.map((option, idx) => (
           <label
             key={idx}
-            className=" cursor-pointer text-xl bg-gradient-to-r font-medium p-3 rounded-md text-left h-full w-full flex gap-5 items-center from-cyan-600 to-teal-300"
+            className=" cursor-pointer text-xl font-medium p-3 rounded-md text-left h-full w-full flex gap-5 items-center bg-teal-500"
           >
             <input
               onChange={(e) => handleSelect(e.target.value)}
@@ -46,7 +46,7 @@ const SIngleQuiz = ({ question, num }) => {
               id={options.id}
               value={option}
             />
-            <span> {option}</span>
+            <span className="dark:text-white"> {option}</span>
           </label>
         ))}
       </div>

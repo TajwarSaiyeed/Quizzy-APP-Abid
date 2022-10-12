@@ -6,12 +6,22 @@ import Blog from "./Components/Blog/Blog";
 import Quizes from "./Components/Quizes/Quizes";
 import Statictis from "./Components/Statictis/Statictis";
 import PageNotFound from "./Components/PageNotFound/PageNotFound";
+import { createContext, useState } from "react";
+
+export const Dark = createContext();
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Main />,
+      element: (
+        <div className={darkMode ? "dark" : ``}>
+          <Dark.Provider value={[darkMode, setDarkMode]}>
+            <Main />
+          </Dark.Provider>
+        </div>
+      ),
       children: [
         {
           path: "/",

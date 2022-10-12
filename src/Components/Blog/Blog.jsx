@@ -2,10 +2,10 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <div>
-      <h1 className="text-5xl my-5 font-medium">Blogs</h1>
+    <div className="h-screen">
+      <h1 className="text-5xl my-5 font-medium dark:text-white">Blogs</h1>
       <div className="grid grid-cols-1 mx-3 my-5 md:grid-cols-2 lg:grid-cols-3 gap-5 max-h-screen align-middle justify-items-center">
-        <div className="bg-teal-400 px-3 py-4 rounded-lg text-justify">
+        <div className="bg-teal-400 shadow dark:shadow-slate-100 dark:text-gray-800 dark:bg-cyan-400 px-3 py-4 rounded-lg text-justify">
           <h2 className="text-2xl my-2">Purpose Of React Router</h2>
           <p>
             React Router is a standard library for routing in React. It enables
@@ -14,7 +14,7 @@ const Blog = () => {
             sync with the URL.
           </p>
         </div>
-        <div className="bg-teal-400 px-3 py-4 rounded-lg text-justify">
+        <div className="bg-teal-400 shadow dark:shadow-slate-100 dark:text-gray-800 dark:bg-cyan-400 px-3 py-4 rounded-lg text-justify">
           <h2 className="text-2xl my-2">How does context API works?</h2>
           <p>
             The React Context API is a way for a React app to effectively
@@ -23,7 +23,7 @@ const Blog = () => {
             child to parent, and so on.
           </p>
         </div>
-        <div className="bg-teal-400 px-3 py-4 rounded-lg text-justify">
+        <div className="bg-teal-400 shadow dark:shadow-slate-100 dark:text-gray-800 dark:bg-cyan-400 px-3 py-4 rounded-lg text-justify">
           <h2 className="text-2xl my-2">Why use UseRef Hook?</h2>
           <p>
             The useRef Hook allows you to persist values between renders. It can

@@ -8,19 +8,19 @@ import {
 const Header = () => {
   return (
     <div>
-      <h1 className="my-3 text-4xl font-bold text-teal-800 w-full">
+      <h1 className="my-3 text-4xl font-bold text-teal-800 dark:text-cyan-200 w-full">
         Welcome To My Quizzy App
       </h1>
       <div className="relative mt-20 mb-15 items-center mx-auto bg-gradient-to-b from-teal-500 dark:from-sky-200 rounded-full w-80 h-80 lg:w-96 lg:h-96 overflow-hidden">
         <img src={Me} className="object-cover w-full h-full" alt="" />
       </div>
-      <h2 className="uppercase font-medium text-4xl md:text-5xl lg:text-6xl py-2 text-teal-600">
+      <h2 className="uppercase font-medium text-4xl md:text-5xl lg:text-6xl py-2 text-teal-600 dark:text-teal-400">
         <span className="text-6xl normal-case md:text-8xl lg:text-10xl">
           Hi I'm
         </span>{' '}
         Tajwar Saiyeed
       </h2>
-      <h3 className="text-xl text-dark md:text-3xl lg:text-4xl py-2">
+      <h3 className="text-xl text-dark dark:text-white md:text-3xl lg:text-4xl py-2">
         Learning Web Development With Programming Hero
       </h3>
       <div className="flex justify-center text-5xl gap-4 my-5 py-2">

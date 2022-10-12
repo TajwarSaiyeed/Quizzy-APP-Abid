@@ -16,6 +16,8 @@ Active link added and onther pic chart add in every quiz section. it will show w
 
 React Toast
 
+Dark Mode add in whole website
+
 Add Statictis For showing the total of every topics.
 
 write Something About me in header

@@ -7,7 +7,7 @@ const Statictis = () => {
   console.log(totalQuiz)
   return (
     <div className="flex flex-col justify-center items-center h-screen my-5">
-      <h1 className="text-3xl font-medium">Statictis</h1>
+      <h1 className="text-3xl font-medium dark:text-white">Statictis</h1>
       <ResponsiveContainer width="100%" height="100%">
         <PieChart width={100} height={100}>
           <Pie
