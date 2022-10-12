@@ -45,7 +45,7 @@ const Quizes = () => {
             Right Answer : {correct}
           </h2>
           <div>
-            <ResponsiveContainer width="100%" height={200}>
+            <ResponsiveContainer width="100%" height={250}>
               <PieChart width={50} height={50}>
                 <Pie
                   dataKey="rightWrong"
