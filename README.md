@@ -2,7 +2,7 @@
 
 # Project Name : Quizzy App
 
-# Dependencies and extra thing what i have added in my app
+# Dependencies and features what i have added in my app
 
 React Router
 
@@ -11,6 +11,8 @@ React Icon
 Tailwind CSS
 
 Rechat
+
+Active link added and onther pic chart add in every quiz section. it will show when you participate in quiz.
 
 React Toast
 
