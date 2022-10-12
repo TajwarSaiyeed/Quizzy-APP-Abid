@@ -12,7 +12,6 @@
 
 # Right Something About me in heaader
 
-# Dark mode
 
 # Getting Started with Create React App
 
