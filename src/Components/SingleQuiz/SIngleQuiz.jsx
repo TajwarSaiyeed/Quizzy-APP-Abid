@@ -28,7 +28,7 @@ const SIngleQuiz = ({ question, num }) => {
         </h1>
         <button
           className="w-10 h-10 cursor-pointer"
-          onClick={() => toast(question.correctAnswer)}
+          onClick={() => toast(correctAnswer)}
         >
           <AiFillEye />
         </button>
