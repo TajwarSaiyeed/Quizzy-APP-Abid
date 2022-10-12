@@ -1,7 +1,9 @@
-# live site https://quizzy-app-abid.netlify.app/
+# live site <https://quizzy-app-abid.netlify.app/>
 
 # Project Name : Quizzy App
+
 # Dependencies and extra thing what i have added in my app
+
 React Router
 
 React Icon
@@ -14,9 +16,7 @@ React Toast
 
 Add Statictis For showing the total of every topics.
 
-write Something About me in heaader
-
-
+write Something About me in header
 
 # Getting Started with Create React App
 
