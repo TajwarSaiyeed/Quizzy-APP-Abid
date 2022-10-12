@@ -1,3 +1,19 @@
+# Dependencies and extra thing what i have added in my app
+
+# React Router
+
+# React Icon
+
+# Tailwind CSS
+
+# Rechat
+
+# React Toast
+
+# Right Something About me in heaader
+
+# Dark mode
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

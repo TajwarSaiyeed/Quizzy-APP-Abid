@@ -1,5 +1,5 @@
 import React, { createContext, useState } from 'react'
-import { useLoaderData } from 'react-router-dom'
+import { Link, useLoaderData } from 'react-router-dom'
 import SIngleQuiz from '../SingleQuiz/SIngleQuiz'
 
 export const worngRightCounter = createContext()
@@ -37,6 +37,12 @@ const Quizes = () => {
           <h2 className="my-2 p-2 rounded-md bg-slate-400">
             Right Answer : {correct}
           </h2>
+          <Link
+            to="/"
+            className="bg-teal-900 p-2 text-white rounded-md cursor-pointer"
+          >
+            Back to Home
+          </Link>
         </div>
       </div>
     </div>
