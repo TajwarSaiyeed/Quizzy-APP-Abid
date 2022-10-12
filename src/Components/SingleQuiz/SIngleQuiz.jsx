@@ -20,15 +20,18 @@ const SIngleQuiz = ({ question, num }) => {
 
   return (
     <div className="px-4 py-5 sm:px-5 md:px-10 bg-slate-200 rounded-md">
-      <div className="flex justify-between">
-        <h1 className="text-2xl text-left flex-1">
+      <div className="flex justify-between items-center">
+        <h1 className="text-2xl text-left">
           Quiz {num + 1}
           {' : '}
           {question.question.slice(3, question.question.length - 4)}
         </h1>
-        <div className="w-10 h-10 cursor-pointer flex-1">
+        <button
+          className="w-10 h-10 cursor-pointer"
+          onClick={() => toast(question.correctAnswer)}
+        >
           <AiFillEye />
-        </div>
+        </button>
       </div>
       <div className="grid grid-cols-1 gap-2 my-2">
         {options.map((option, idx) => (
@@ -40,6 +43,7 @@ const SIngleQuiz = ({ question, num }) => {
               onChange={(e) => handleSelect(e.target.value)}
               type="radio"
               name="q"
+              id={options.id}
               value={option}
             />
             <span> {option}</span>
@@ -49,10 +53,6 @@ const SIngleQuiz = ({ question, num }) => {
       <ToastContainer
         position="top-center"
         autoClose={5000}
-        // hideProgressBar={false}
-        // newestOnTop={false}
-        // closeOnClick
-        // rtl={false}
         pauseOnFocusLoss
         draggable
         pauseOnHover
