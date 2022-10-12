@@ -1,17 +1,17 @@
 #live site https://quizzy-app-abid.netlify.app/
 # Dependencies and extra thing what i have added in my app
 
-# React Router
+React Router
 
-# React Icon
+React Icon
 
-# Tailwind CSS
+Tailwind CSS
 
-# Rechat
+Rechat
 
-# React Toast
+React Toast
 
-# Right Something About me in heaader
+Right Something About me in heaader
 
 
 # Getting Started with Create React App
