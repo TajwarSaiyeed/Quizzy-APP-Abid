@@ -22,7 +22,7 @@ const Blog = () => {
         </p>
       </div>
       <div className="bg-teal-400 px-3 py-4 rounded-lg text-justify">
-        <h2 className="text-2xl my-2">Why use UseRef Hook</h2>
+        <h2 className="text-2xl my-2">Why use UseRef Hook?</h2>
         <p>
           The useRef Hook allows you to persist values between renders. It can
           be used to store a mutable value that does not cause a re-render when
